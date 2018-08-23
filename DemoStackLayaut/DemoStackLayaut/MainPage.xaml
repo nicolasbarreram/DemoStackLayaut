@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:DemoStackLayaut"
+             x:Class="DemoStackLayaut.MainPage">
+
+    <StackLayout>
+        <Button BackgroundColor="CornflowerBlue"
+                Text="Fill"
+                HorizontalOptions="Fill">
+            
+        </Button>
+        <Button BackgroundColor="DarkOliveGreen"
+                Text="Fill"
+                VerticalOptions="Fill">
+
+        </Button>
+        
+    </StackLayout>
+
+</ContentPage>
